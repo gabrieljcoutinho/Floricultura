@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.imgAppFixo {
+    transform: translateY(-300px);
+}
+
+html {
+    scroll-behavior: smooth;
+}

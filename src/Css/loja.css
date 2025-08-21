@@ -1,0 +1,85 @@
+.flexbox {
+    padding-top: 5rem;
+    height: 600px;
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    transform: translateY(-350px);
+}
+
+
+/* Blocos dentro do flexbox */
+.flexbox div {
+    background: linear-gradient(135deg, #FFE4E1, #FFF0F5);
+    /* tons suaves de rosa/lavanda */
+    width: 350px;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* leve sombra para profundidade */
+    transition: transform 0.3s;
+}
+
+.flexbox div img {
+    width: 350px;
+    border-radius: 15px 15px 0px 0px;
+    height: 250px;
+}
+
+.flexbox div:hover {
+    transform: translateY(-10px);
+    /* efeito hover delicado */
+}
+
+/* Separadores */
+.separadorDireita {
+    transform: translateY(-330px);
+    padding-left: 95.5rem;
+}
+
+.separadorEsquerda {
+    transform: translateY(-330px);
+}
+
+
+.imgLateralMandala {
+    transform: translateY(-90px) rotate(-18deg);
+    z-index: 1;
+    padding-left: 121.7rem;
+}
+
+h3 {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    transform: translateY(-5px);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20;
+}
+
+
+.div1 h3 {
+    text-align: center;
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+.div1 .descricao {
+    text-align: center;
+    font-size: 2rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+
+}
+
+.div1 .preco {
+    text-align: center;
+    font-weight: bold;
+    color: #ff4081;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,50 @@
+.header {
+    background-color: pink;
+    color: white;
+    z-index: 10;
+    position: relative;
+    /* background-image: url('../imgs/mandala-esquerda.png'); */
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 120px;
+    padding-left: 25rem;
+    position: fixed;
+    width: 100%;
+
+}
+
+.tituloPrincipal {
+    text-align: center;
+    z-index: 20;
+    /* garante que o texto fica na frente */
+}
+
+
+
+.imgHeader {
+    transform: translateY(-50px);
+    rotate: 30deg;
+    z-index: 1;
+}
+
+ul {
+    display: flex;
+    padding-top: 10px;
+    padding-left: 35rem;
+    list-style-type: none
+}
+
+.header li a {
+    color: black;
+    list-style-type: none;
+    padding-left: 2rem;
+    cursor: pointer;
+    text-decoration: none;
+    list-style-type: none
+}
+
+.header li:hover {
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+}
